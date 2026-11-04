@@ -1,0 +1,100 @@
+{
+  "fetched_at": "2026-11-04T06:50:47.042601+00:00",
+  "address": "64fcNUtAAockLpMJZ1DudHCMHJhLRBmgrmGvbrwmQzQw",
+  "request_options": {
+    "limit": 3,
+    "before": null,
+    "until": null,
+    "commitment": "confirmed",
+    "encoding": "jsonParsed"
+  },
+  "signatures_response": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": [
+      {
+        "signature": "5PpAjUo3J82UvV5cpjucNeQmhVocZugm4riafatGx6L7CYd3v2XH6nrgMgSGHPZcNwEetVR6TVUZrnC4bGKynmFi",
+        "slot": 465207453,
+        "err": null,
+        "memo": null,
+        "blockTime": 1793775041,
+        "confirmationStatus": "finalized",
+        "transactionIndex": 153
+      },
+      {
+        "signature": "5EcvKsbCUs5mhKVkxoTK6BjHToZbQRDXnQSeUDgEtmd1XDTDTAM8p1heX8y5LK4XwdP5AZUhc9vnSbjtXZiTP9rU",
+        "slot": 465207449,
+        "err": null,
+        "memo": null,
+        "blockTime": 1793775040,
+        "confirmationStatus": "finalized",
+        "transactionIndex": 29
+      },
+      {
+        "signature": "3DdgRSPdw2K9z6FuHndEHBcN2LrojtJEphWvnahK2QQ6SyH2vx51vgC1ciAHS8W9fv8dnaSf66hswFj3PULTJKjQ",
+        "slot": 465207449,
+        "err": null,
+        "memo": "[49] pump-limit:v3:take_profit:900000:1000000000000000",
+        "blockTime": 1793775040,
+        "confirmationStatus": "finalized",
+        "transactionIndex": 28
+      }
+    ]
+  },
+  "transactions": [
+    {
+      "signature": "5PpAjUo3J82UvV5cpjucNeQmhVocZugm4riafatGx6L7CYd3v2XH6nrgMgSGHPZcNwEetVR6TVUZrnC4bGKynmFi",
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "transaction": {
+            "signatures": [
+              "5PpAjUo3J82UvV5cpjucNeQmhVocZugm4riafatGx6L7CYd3v2XH6nrgMgSGHPZcNwEetVR6TVUZrnC4bGKynmFi"
+            ],
+            "message": {
+              "accountKeys": [
+                {
+                  "pubkey": "64fcNUtAAockLpMJZ1DudHCMHJhLRBmgrmGvbrwmQzQw",
+                  "writable": true,
+                  "signer": true,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "4AixkmhyChKEcu7H469FDDCGRhGyAAxjYXx1PZ6f5qfh",
+                  "writable": true,
+                  "signer": false,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "h8rrGmbnASe2V8a6Z7t62BLRMv5Xiq4FwPPDCSRAm16",
+                  "writable": true,
+                  "signer": false,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "2Sw7YQxNU8zShH2fe2HEXX4RNze93GiYNb6iQMe93Q9v",
+                  "writable": true,
+                  "signer": false,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "3F72P7DKhYUZtTtz7WcgTcqcTe8trr2z8TBRw2mVXtnr",
+                  "writable": true,
+                  "signer": false,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                  "writable": false,
+                  "signer": false,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                  "writable": false,
+                  "signer": false,
+                  "source": "transaction"
+                },
+                {
+                  "pubkey": "5YRgrP3mjGzrzirYYN5HAQH19cTYREYwGxW6XRJQUzij",
